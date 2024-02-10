@@ -33,6 +33,7 @@ namespace Prime.UnitTests.Services
         [InlineData(1)]
         //[InlineData(13)] 
         //To test failing input (prime integers), un-comment the above [InlineData(13)]
+        
         public void IsNotPrime_ReturnFalse(int value)
         {
             var result = _primeService.IsPrime(value);
